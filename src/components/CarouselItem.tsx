@@ -20,7 +20,11 @@ const sxGrid = {
 
 const CarouselItem = ({ item }: CarouselItemProps) => {
   return (
-    <Box sx={{ padding: '2em 5em' }}>
+    <Box sx={{
+        margin: '2em 5em 2em 9em',
+        border: '2px solid #000',
+        padding: '2em',
+      }}>
       <Grid container>
         <Grid item xs={12} md={6} sx={sxGrid}>
           <Check sx={{ color: '#086' }} />
